@@ -44,9 +44,9 @@ EOS
   s.subspec 'Mocks' do |mocks|
       mocks.dependency 'Kiwi/NonARC'
       mocks.source_files = [
-        "Classes/Core/KiwiConfiguration.h",
         "Classes/Mocking/*.{h,m}", 
         "Classes/Stubbing/*.{h,m}",
+        "Classes/Core/KiwiConfiguration.h",
         "Classes/Core/KWFormatter.{h,m}",
         "Classes/Core/KWInvocationCapturer.{h,m}",
         "Classes/Core/KWObjCUtilities.{h,m}",
@@ -59,14 +59,14 @@ EOS
         "Classes/Core/NSInvocation+KiwiAdditions.{h,m}",
         "Classes/Core/NSMethodSignature+KiwiAdditions.{h,m}",
         "Classes/Core/KWMatching.h",
-        "Classes/Matchers/KWGenericMatcher.{h,m}",
-        "Classes/Matchers/KWGenericMatchEvaluator.{h,m}",
-        "Classes/Core/KWAny.{h,m}",
         "Classes/Core/KWMatcher.{h,m}",
+        "Classes/Core/KWAny.{h,m}",
         "Classes/Core/NSInvocation+OCMAdditions.{h,m}",
         "Classes/Core/KWFutureObject.{h,m}",
         "Classes/Core/NSObject+KiwiSpyAdditions.{h,m}",
-        "Classes/Core/NSNumber+KiwiAdditions.{h,m}"
+        "Classes/Core/NSNumber+KiwiAdditions.{h,m}",
+        "Classes/Matchers/KWGenericMatcher.{h,m}",
+        "Classes/Matchers/KWGenericMatchEvaluator.{h,m}"
       ]
   end
 
