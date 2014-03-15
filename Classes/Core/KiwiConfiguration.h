@@ -25,6 +25,6 @@
     #define KW_TEST_SUITE XCTestSuite
 #else
     #import <SenTestingKit/SenTestingKit.h>
-    #define KW_TEST_CASE SenTestCase
+    #define KW_TEST_CASE XCTestCase
     #define KW_TEST_SUITE SenTestSuite
 #endif

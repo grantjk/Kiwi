@@ -41,5 +41,32 @@ EOS
 	  nonarc.compiler_flags = '-fno-objc-arc'
   end
 
+  s.subspec 'Mocks' do |mocks|
+      mocks.dependency 'Kiwi/NonARC'
+      mocks.source_files = [
+        "Classes/Core/KiwiConfiguration.h",
+        "Classes/Mocking/*.{h,m}", 
+        "Classes/Stubbing/*.{h,m}",
+        "Classes/Core/KWFormatter.{h,m}",
+        "Classes/Core/KWInvocationCapturer.{h,m}",
+        "Classes/Core/KWObjCUtilities.{h,m}",
+        "Classes/Core/KWCaptureSpy.{h,m}",
+        "Classes/Core/KWMessageSpying.{h,m}",
+        "Classes/Core/KWNull.{h,m}",
+        "Classes/Core/KWStringUtilities.{h,m}",
+        "Classes/Core/KWValue.{h,m}",
+        "Classes/Core/KWWorkArounds.{h,m}",
+        "Classes/Core/NSInvocation+KiwiAdditions.{h,m}",
+        "Classes/Core/NSMethodSignature+KiwiAdditions.{h,m}",
+        "Classes/Matchers/KWGenericMatchEvaluator.{h,m}",
+        "Classes/Core/KWAny.{h,m}",
+        "Classes/Core/KWMatcher.{h,m}",
+        "Classes/Core/NSInvocation+OCMAdditions.{h,m}",
+        "Classes/Core/KWFutureObject.{h,m}",
+        "Classes/Core/NSObject+KiwiSpyAdditions.{h,m}",
+        "Classes/Core/NSNumber+KiwiAdditions.{h,m}"
+      ]
+  end
+
 end
 

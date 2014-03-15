@@ -12,7 +12,8 @@
 #import "NSInvocation+KiwiAdditions.h"
 #import "NSMethodSignature+KiwiAdditions.h"
 #import "KWGenericMatchEvaluator.h"
-#import "Kiwi.h"
+//#import "Kiwi.h"
+#import "KWAny.h"
 
 @implementation KWMessagePattern
 

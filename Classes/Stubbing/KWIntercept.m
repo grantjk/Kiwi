@@ -321,4 +321,5 @@ void KWClearAllMessageSpies(void) {
         [KWRestoredObjects addObject:spiedObject];
     }
     [KWMessageSpies removeAllObjects];
+    KWMessageSpies = nil;
 }
