@@ -58,6 +58,8 @@ EOS
         "Classes/Core/KWWorkArounds.{h,m}",
         "Classes/Core/NSInvocation+KiwiAdditions.{h,m}",
         "Classes/Core/NSMethodSignature+KiwiAdditions.{h,m}",
+        "Classes/Core/KWMatching.h",
+        "Classes/Matchers/KWGenericMatcher.{h,m}",
         "Classes/Matchers/KWGenericMatchEvaluator.{h,m}",
         "Classes/Core/KWAny.{h,m}",
         "Classes/Core/KWMatcher.{h,m}",
